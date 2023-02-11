@@ -1,18 +1,5 @@
-## Getting Started
+# Aprende Lógica de Programación (Autor Jesús Ormaza)
+Libro con ejercicios para desarrollar la logica de programación en el lenguaje de bajo nivel 'Java'.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Sobre los ejercicios
+Las numeraciones de los ejercicios no tienen un sentido logico dentro del repositorio, esto es debido a que, el autor muestra un ejemplo desarrollado por el mismo como `ejercicio 1`, posteriormente el autor desea que el alumno desarrolle otro ejercicio, **estos son los que estarán en este repositorio**, ellos son llamados como `ejercicio 1.1` esa es la razón del por que no tienen un orden organizado (1, 2, 3, etc.).
