@@ -1,4 +1,4 @@
-public class Ejercicios2_6 {
+public class Ejercicio2_6 {
     public static void main(String[] args) {
         /*
         Ejercicio 2.6 Escribir un programa que reemplace las letras

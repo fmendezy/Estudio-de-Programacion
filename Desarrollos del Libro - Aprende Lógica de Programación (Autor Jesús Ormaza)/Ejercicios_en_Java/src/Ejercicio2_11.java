@@ -7,16 +7,16 @@ teclado y el ejercicio 2.10 con números ingresados por teclado
 */
     public static void main(String[] args) {
         // Codigos del 2_11
-        Scanner ingreso = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("> Ingrese una letra");
-        String letra = ingreso.nextLine();
+        String letra = sc.nextLine();
         System.out.println("> Bien, ahora ingrese 3 numeros (pueden tener decimales)\n 1) Ingrese el primer numero:");
-        String valor1  = ingreso.nextLine();
+        String valor1  = sc.nextLine();
         System.out.println(" 2) Ingrese el segundo numero:");
-        String valor2  = ingreso.nextLine();
+        String valor2  = sc.nextLine();
         System.out.println(" 3) Ingrese el tercer numero:");
-        String valor3  = ingreso.nextLine();
-
+        String valor3  = sc.nextLine();
+        if(sc != null) { sc.close();}// sc.close para evitar advertencias en el codigo.
         /*
         Ejercicio 2.6 Escribir un programa que reemplace las letras
         indicadas.
