@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A32542C-22DA-6C33-1DC3-7D4765D7F305" name="INVERSION">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:16:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre_proyecto" id="08EC2D03-0BEF-F565-3B9D-D106A8CEE2CA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:16:39 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>6EAD4E28-E380-5BDD-886B-BE872D73F734</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_inversion" id="F3CAFF3D-BC81-EF4C-DEF5-69C767D91FDF">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:16:39 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>7C84DE90-8C52-CD5B-3A91-6017A0CB3470</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B6378CCC-FEFA-AD16-56AA-85CD0591BA97">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:49:50 UTC</createdTime>
+<generatorID>735FE42B-5764-E231-4BA6-DB265746228C</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<referedAttribute>7E8A7657-AE30-CC97-528E-F808889103DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21F5D57A-D082-1FA0-1168-47D8B82EE564" name="INVERSION PK">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:16:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08EC2D03-0BEF-F565-3B9D-D106A8CEE2CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

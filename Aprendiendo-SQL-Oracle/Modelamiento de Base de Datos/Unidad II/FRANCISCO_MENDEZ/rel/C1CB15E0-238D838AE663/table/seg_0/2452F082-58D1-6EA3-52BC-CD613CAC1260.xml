@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2452F082-58D1-6EA3-52BC-CD613CAC1260" name="REGISTRO_COMUNAL">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>D845A0D7-22FE-D8BA-92F3-4B7EFA6CD6BB</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_inscripcion" id="D008476D-95E5-C831-4927-B2231B08DEC2">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>3986812B-EC77-0B2C-1B64-0AA17C0881D0</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_resolucion" id="ECD359E2-7E9A-2D33-B8B2-6ED031FAD897">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>B445F1AE-B657-21FC-D186-9502C7E24075</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_nombre" id="391EAB54-71AF-4D47-C170-7614175BC587">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>313DFE6E-13E2-6822-35B7-1B19A63739C2</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FEFB011-46C6-97D8-013B-E05A8AC46FAF" referredColumn="167D4523-8314-BD6B-CB7C-6E6EFB767C0C"/>
+</associations>
+</Column>
+<Column name="REGISTRO_COMUNAL_ID" id="E53F4C7E-D9CD-A41A-0AEA-8C3581657B10">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65A19E3F-E0D2-B12E-C2A4-52F1E82678F8" name="REGISTRO_COMUNAL_PK">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E53F4C7E-D9CD-A41A-0AEA-8C3581657B10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10B40408-261C-1E7A-D992-EAC7353620CE" name="REGISTRO_COMUNAL__IDX">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>87A0527C-DA06-277D-D6E5-A101785D67A6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="391EAB54-71AF-4D47-C170-7614175BC587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B7752FD-430B-2A33-4E4D-2552B0B51776" name="FK_REGISTRO_COMUNAL_ESCUELA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>87A0527C-DA06-277D-D6E5-A101785D67A6</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="391EAB54-71AF-4D47-C170-7614175BC587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

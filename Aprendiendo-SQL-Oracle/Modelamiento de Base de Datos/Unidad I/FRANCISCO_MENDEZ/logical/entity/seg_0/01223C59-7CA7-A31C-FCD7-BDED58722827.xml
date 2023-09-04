@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01223C59-7CA7-A31C-FCD7-BDED58722827" name="ADJUDICACIÓN_RECURSOS">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:15:44 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="31568135-FF80-33E1-711D-BF6811565018">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:16:04 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_opcional" id="BEB5FFF6-6BA3-79D6-E9FA-D7F7B41CF220">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:16:08 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cumple_requisitos" id="C6557BE0-ABAC-0241-0431-EBA88B59835B">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:16:17 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntos" id="CCDBCD39-7D79-0E95-4BC4-837D8D1390C4">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:16:27 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="963AEDD0-3329-15B4-61B8-DB3D6AAC4048">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:20:04 UTC</createdTime>
+<generatorID>0A5701DD-0D9F-CD6F-105B-D14E6A7AE172</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<referedAttribute>7FC6BDA3-E7B3-45FB-2171-BAED453F53FE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="52E71D27-E722-1E5C-9033-31E7CA9C40C2">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:48:51 UTC</createdTime>
+<generatorID>FF900E97-489B-00D7-94AD-A598CA625BB0</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<referedAttribute>EE0F008D-879C-CC1E-300E-50CF9C9EB1BA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB021B96-8A2B-45B5-FA93-314E91D4D936" name="ADJUDICACIÓN_RECURSOS PK">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:16:07 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31568135-FF80-33E1-711D-BF6811565018</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

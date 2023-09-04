@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70DAB9D5-A8F1-E9C2-3D68-85231BC72916" name="ESCUELA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="7E8A7657-AE30-CC97-528E-F808889103DE">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>4484B37E-ED85-EB7D-4B1C-E5D3DED04C25</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="91F494ED-B3F5-9DF0-A33D-FFA1D6A636BF">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>3BB09973-50CD-39B2-D4D1-76AA8DF53FDF</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="3650CB5C-8F63-2640-5EC5-C8E1ACCE6CFB">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>4AC547AD-098C-6087-7F2E-8F3C4AF2E6C9</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="BE177472-FE34-ADA9-B5FE-3CD60BFB770A">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>D7EC2540-39DA-87D2-E22B-BA33315D49FA</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region" id="B76CF220-BF28-C99F-8EE6-5EBAF21216EB">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>7177ACF9-8D9A-AB7E-4BEF-B88A29503BF2</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sitio_web" id="A9B9EDD8-F488-D158-215C-BC0F5744BFCF">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>1FF4F3EB-FF42-C713-BAA2-73E74A4E8213</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="E72D88F7-1742-E47B-3A5E-5B011F2E2A52">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:50:35 UTC</createdTime>
+<generatorID>803B1F6E-7B0B-14BB-89AD-D786046BE1CA</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<referedAttribute>377708D4-C455-A464-7B65-8189FC6E884D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45286F76-9C23-5D91-1F00-BC34C50DB841" name="ESCUELA PK">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E8A7657-AE30-CC97-528E-F808889103DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AE6955F-918E-5710-3F85-DE933FD47E3A" name="INFRAESTRUCTURA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>515D04C0-836F-71F9-BE76-4CF3F50C60EE</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre_proyecto" id="53C2D41D-AC4C-8531-32DA-DA8C28039CC3">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>08EC2D03-0BEF-F565-3B9D-D106A8CEE2CA</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54496862-1E9A-25A4-D58B-61671CED3EAA" referredColumn="30D3962E-F208-FA15-248E-6FA62A8F3331"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2B0A492-F150-812D-B183-38B956367771" name="PK_INFRAESTRUCTURA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>21F5D57A-D082-1FA0-1168-47D8B82EE564</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53C2D41D-AC4C-8531-32DA-DA8C28039CC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C7711C0-C03F-97B9-4D69-CD174735FC1C" name="FK_INFRAESTRUCTURA_INVERSION">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>ACFCF199-C234-A176-CF5F-069CD63C50ED</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53C2D41D-AC4C-8531-32DA-DA8C28039CC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

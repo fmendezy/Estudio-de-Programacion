@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="779170C5-FD44-C8B5-A646-CDF686CF3F1B" name="PROFESOR_INDEFINIDO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:17:06 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D43B2857-FC52-EB02-495B-B98B689D23CB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sueldo" id="853DA7FB-D992-E8E8-8AF7-77154D3CF99F">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:17:06 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>2B408E33-F0A1-830E-2B50-FF7C2270814A</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFP" id="936FB33A-B0E7-FACA-4705-B78AF642665B">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:17:06 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>EA7E7563-FE4E-EA4B-CF51-6DEBF027A609</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salud" id="BAA7009A-534E-B085-B9EC-B84CA75EA743">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:17:06 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>39946877-D345-BE0D-BBB4-F318011022B9</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

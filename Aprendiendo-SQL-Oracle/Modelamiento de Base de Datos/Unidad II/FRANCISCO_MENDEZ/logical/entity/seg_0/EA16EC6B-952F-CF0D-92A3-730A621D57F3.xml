@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA16EC6B-952F-CF0D-92A3-730A621D57F3" name="TURNO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dia_hora_inicio" id="08ADD673-90FB-3EF8-7D20-C3A8046158EC">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>A94D823B-FB70-35F7-6E7D-F7AECB6A744C</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia_hora_termino" id="52BA8308-37CA-E959-AF5D-E750AB83E241">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>7CC033E3-21C0-8A3D-478A-C9CFF7079261</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BB914807-F758-9EB0-FF1D-FC20A38A2A6F">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<generatorID>DEF1E5E5-6011-2389-0384-72E0220EABF1</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<importedID>3DB80E1A-9761-633C-D3C1-A625F331D2D7</importedID>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<referedAttribute>7E8A7657-AE30-CC97-528E-F808889103DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_folio1" id="3992A85A-E872-AFEF-6BA4-FAF91B4445BA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:31:18 UTC</createdTime>
+<generatorID>F0F70F1C-D696-C478-7A44-64647DC2B0A1</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<referedAttribute>08A7E650-8F00-667D-077A-B1E1AC0C7D36</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="986BA7CD-93EF-AA2A-2E6A-0FB2C7AFB8EF" name="TURNO PK">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:15:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB914807-F758-9EB0-FF1D-FC20A38A2A6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

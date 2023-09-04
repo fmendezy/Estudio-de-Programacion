@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBD5BE6E-F5BB-D435-042F-694341953E73" name="DIRECTOR_A_CARGO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>5D310B2C-A073-ECD5-C6C4-1F4EAE44DCA3</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="689B1E7E-BBCD-7B95-E878-499325A871A9">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>377708D4-C455-A464-7B65-8189FC6E884D</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv_rut" id="364F9F23-1C7E-0736-1C18-9B1B81563895">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>F5D004D2-3944-0CC4-F054-F8308CC65DC3</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pnombre" id="53CC0984-362C-B487-7284-C5B7EC90C17B">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>20CF6C4C-04BD-6294-97D4-B5386ED4D8E0</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="snombre" id="DB85D0D2-3351-357A-E248-6F795E1ADE93">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>926BDE5F-E5EF-A4C5-4C69-83BB9D531488</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apaterno" id="99FCBC41-F76D-15F1-0361-0DFE15B17CDD">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>58804030-F41A-B4C8-6EEA-ED6A828561FF</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amaterno" id="1DC6760D-563D-04DF-D3CD-5B4D75B015E1">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>0249E9B4-C310-E84F-6394-B30AC331245A</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="320A9631-AA6B-7266-C2F3-2A4C516AA687">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>307525C9-29C9-51C3-95EC-D44FBB7418A7</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="C214640C-5AD1-BD3F-1851-74368C36E1CB">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>B29EFBC6-E21B-69DE-5503-B3E5914E0C16</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="896C3E66-896E-327C-766C-331E05AACDC2">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>84DFF6EC-A51D-482F-0DA8-17C98C2EE974</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="233CD058-EB0B-E60B-5BB2-82441AD32E08">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>87A2F1F5-9FC4-DE51-B323-90EB69DA7B32</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonos" id="020D060A-A79C-5976-271E-3A9EF30DBA39">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>4DE75725-116E-405C-ED3F-2A23F2439767</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail" id="C5D6CB70-3CC8-EA00-B821-D825AB3A909A">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>AAC39CBD-4F08-053F-9CFF-B79AED7F3ADC</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="2118F647-473F-0C49-BC94-DFA9348F62E3">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>CB788E27-9F97-5DBA-1247-6A4C7A0C07B8</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="278FFA64-E690-7A50-C18F-EE945A216567">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>5253E551-532A-DA4E-FA1C-683409A74577</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firma" id="A58E2476-F1CA-C6CD-5D8B-1519F481452B">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>41C4483A-7D9B-D7AF-EB36-A8C789ABBEAE</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_civil" id="109E61A1-2FAF-9E8A-5C89-7837F4E49650">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>340EE0D7-7447-48EE-73FC-04F5FABDD9A9</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_nombre" id="B48DA443-9EA6-3061-991E-CDCFEEE8AE04">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>C3AAD3E7-E815-B566-0608-D3F29BC5C2D0</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C04B3504-DA9F-D1AE-803A-45058A40AF6D" referredColumn="167D4523-8314-BD6B-CB7C-6E6EFB767C0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19AE554E-3AB4-BBEE-EFC8-24CAE25E82FD" name="PK_DIRECTOR_A_CARGO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>C9AE1C4E-A76D-DE26-75DD-4B5B52E49AF2</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="689B1E7E-BBCD-7B95-E878-499325A871A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4AC7CAF-D5ED-7944-B76C-F9C887B2FA6F" name="DIRECTOR_A_CARGO__IDX">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>803B1F6E-7B0B-14BB-89AD-D786046BE1CA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B48DA443-9EA6-3061-991E-CDCFEEE8AE04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="962C0163-33AE-A31A-1764-0D5711FA3781" name="FK_DIRECTOR_A_CARGO_ESCUELA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>803B1F6E-7B0B-14BB-89AD-D786046BE1CA</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B48DA443-9EA6-3061-991E-CDCFEEE8AE04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

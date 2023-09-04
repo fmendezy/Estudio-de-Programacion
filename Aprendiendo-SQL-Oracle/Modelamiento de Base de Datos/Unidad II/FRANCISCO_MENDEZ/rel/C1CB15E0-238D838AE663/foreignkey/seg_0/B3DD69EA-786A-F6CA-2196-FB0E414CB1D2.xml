@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3DD69EA-786A-F6CA-2196-FB0E414CB1D2" containerWithKeyObject="B2F24B85-16CC-1FC9-4876-7EB1587A5646" localFKIndex="A3219004-ADCD-66F8-DAD2-C63019E59FFD" name="FK_TURNO_PROFESOR">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>F0F70F1C-D696-C478-7A44-64647DC2B0A1</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<referredTableLongName>PROFESOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BD120E5-F649-9E9D-4EF1-17A7F38F06DE</referredTableID>
+<keyObject>2DC62A57-4F65-8932-71C9-8B406990C9AF</keyObject>
+<referredKeyID>2DC62A57-4F65-8932-71C9-8B406990C9AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_folio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

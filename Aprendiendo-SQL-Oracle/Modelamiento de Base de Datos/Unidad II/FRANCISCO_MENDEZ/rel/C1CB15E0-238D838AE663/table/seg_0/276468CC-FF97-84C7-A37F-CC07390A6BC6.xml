@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="276468CC-FF97-84C7-A37F-CC07390A6BC6" name="ESCUELA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>70DAB9D5-A8F1-E9C2-3D68-85231BC72916</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="167D4523-8314-BD6B-CB7C-6E6EFB767C0C">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>7E8A7657-AE30-CC97-528E-F808889103DE</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="8CDD6CC8-32C6-F2CE-EDA6-9144A56B23A8">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>91F494ED-B3F5-9DF0-A33D-FFA1D6A636BF</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="68FE3866-F4EB-BE4E-D976-3572E8748BD6">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>3650CB5C-8F63-2640-5EC5-C8E1ACCE6CFB</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="16CE9541-EB88-F9F8-9BB0-39F436C4990D">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>BE177472-FE34-ADA9-B5FE-3CD60BFB770A</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="BE953959-4799-7AB0-3D0A-6C05A8B23F3A">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>B76CF220-BF28-C99F-8EE6-5EBAF21216EB</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sitio_web" id="0B15F895-773D-CB75-0201-25227FBD7546">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>A9B9EDD8-F488-D158-215C-BC0F5744BFCF</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECTOR_A_CARGO_rut" id="5AD5EE76-A0E7-B898-4F37-9242DA266E2E">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>E72D88F7-1742-E47B-3A5E-5B011F2E2A52</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D447C8A-B29E-DE77-6478-3F6EE4E9F45C" referredColumn="689B1E7E-BBCD-7B95-E878-499325A871A9"/>
+</associations>
+</Column>
+<Column name="TIPO_ESCUELA_TIPO_ESCUELA_ID" id="F57C1040-1B63-E452-F889-BDF6DCB21042">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E70229C4-67AD-2AFF-9A60-652D0FB6951D" referredColumn="34284941-EE81-F152-FEC4-B265C7C1CC7B"/>
+</associations>
+</Column>
+<Column name="REGISTRO_COMUNAL_REGISTRO_COMUNAL_ID" id="AE36147A-731C-3645-F847-4D19AD796914">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF7BC71C-BEAB-4E33-D6E5-6DAF7075E8CB" referredColumn="E53F4C7E-D9CD-A41A-0AEA-8C3581657B10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5AE63AD-445C-D826-0252-811339A384F9" name="PK_ESCUELA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>45286F76-9C23-5D91-1F00-BC34C50DB841</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="167D4523-8314-BD6B-CB7C-6E6EFB767C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C68FBA1-D71E-CAAB-7C1F-2BB2A16AED65" name="ESCUELA__IDX">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>803B1F6E-7B0B-14BB-89AD-D786046BE1CA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5AD5EE76-A0E7-B898-4F37-9242DA266E2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B58B4490-3322-FE72-C7FC-D1781354D765" name="ESCUELA__IDXv1">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>75DCB47D-3E30-0725-4610-F3ECF0F7284C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F57C1040-1B63-E452-F889-BDF6DCB21042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8999F5E-9B0C-800C-4F3A-64A075840EEC" name="ESCUELA__IDXv2">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>87A0527C-DA06-277D-D6E5-A101785D67A6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AE36147A-731C-3645-F847-4D19AD796914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99066821-65E6-6605-5C78-AD062B53B2B4" name="FK_ESCUELA_DIRECTOR_A_CARGO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>803B1F6E-7B0B-14BB-89AD-D786046BE1CA</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AD5EE76-A0E7-B898-4F37-9242DA266E2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63BEDF11-B072-6662-426A-6546AB7BA7DE" name="FK_ESCUELA_TIPO_ESCUELA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>75DCB47D-3E30-0725-4610-F3ECF0F7284C</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F57C1040-1B63-E452-F889-BDF6DCB21042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF655FDE-9E39-ADF0-4D89-8B416A244337" name="FK_ESCUELA_REGISTRO_COMUNAL">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>87A0527C-DA06-277D-D6E5-A101785D67A6</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE36147A-731C-3645-F847-4D19AD796914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

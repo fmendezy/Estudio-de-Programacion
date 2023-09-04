@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54496862-1E9A-25A4-D58B-61671CED3EAA" containerWithKeyObject="1AE6955F-918E-5710-3F85-DE933FD47E3A" localFKIndex="5C7711C0-C03F-97B9-4D69-CD174735FC1C" name="FK_INFRAESTRUCTURA_INVERSION">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>ACFCF199-C234-A176-CF5F-069CD63C50ED</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<referredTableLongName>INVERSION</referredTableLongName>
+<arc>11C6C76B-F011-D5A9-6FAD-FF2BC3137AA2</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D51F8738-FD85-B57A-B89B-3670D9B2DD78</referredTableID>
+<keyObject>F6D38D36-580E-9613-F1C6-AF6582A4EA9C</keyObject>
+<referredKeyID>F6D38D36-580E-9613-F1C6-AF6582A4EA9C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nombre_proyecto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

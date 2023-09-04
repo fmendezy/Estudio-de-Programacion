@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80DFD75D-3430-A588-C42E-BFAA2467BE68" name="PROFESOR_INDEFINIDO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>779170C5-FD44-C8B5-A646-CDF686CF3F1B</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_folio" id="C16630FD-28B4-0894-B0F2-C30B1BBA04AF">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>08A7E650-8F00-667D-077A-B1E1AC0C7D36</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DD997DF-7786-4561-BB94-CC2138CB9462" referredColumn="3F79B79A-6540-9050-E9BC-D86AD59011E8"/>
+</associations>
+</Column>
+<Column name="sueldo" id="2EFCE6AF-3349-DBCA-FD0A-6B42FF03F22B">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>853DA7FB-D992-E8E8-8AF7-77154D3CF99F</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFP" id="7101A33C-A61F-1428-A032-E366BF5A15D9">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>936FB33A-B0E7-FACA-4705-B78AF642665B</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salud" id="49838720-817E-F945-3B88-72CD7F3E0604">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>BAA7009A-534E-B085-B9EC-B84CA75EA743</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DABD3C7C-0A2F-A73D-9273-341503AE76D8" name="PK_PROFESOR_INDEFINIDO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>87838DFF-60B4-3F0F-1EC3-DD05E877ED7A</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C16630FD-28B4-0894-B0F2-C30B1BBA04AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B740B93-D980-E101-0728-7DA890FB61FB" name="FK_PROFESOR_INDEFINIDO_PROFESOR">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>B0174AC2-A55F-AF4B-10F4-A5BAD3E34D5D</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C16630FD-28B4-0894-B0F2-C30B1BBA04AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

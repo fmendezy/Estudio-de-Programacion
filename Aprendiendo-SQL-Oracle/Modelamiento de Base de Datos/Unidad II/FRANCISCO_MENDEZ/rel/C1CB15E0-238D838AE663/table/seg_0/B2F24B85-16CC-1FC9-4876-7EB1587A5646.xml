@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2F24B85-16CC-1FC9-4876-7EB1587A5646" name="TURNO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>EA16EC6B-952F-CF0D-92A3-730A621D57F3</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dia_hora_inicio" id="F4A2A5AD-669F-FE05-1DD0-7EC4DC2185AA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>08ADD673-90FB-3EF8-7D20-C3A8046158EC</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia_hora_termino" id="490A455B-2EF0-B62F-630C-F908148C5CD4">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>52BA8308-37CA-E959-AF5D-E750AB83E241</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_nombre" id="4E9BE607-112C-614A-0C4A-1EB3C1E1CD6F">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>BB914807-F758-9EB0-FF1D-FC20A38A2A6F</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94673338-B5E2-86CB-8CD8-E1DF0490E11B" referredColumn="167D4523-8314-BD6B-CB7C-6E6EFB767C0C"/>
+</associations>
+</Column>
+<Column name="PROFESOR_numero_folio" id="67CC97EB-1B9A-CE00-36ED-569DCF2E66ED">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>3992A85A-E872-AFEF-6BA4-FAF91B4445BA</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3DD69EA-786A-F6CA-2196-FB0E414CB1D2" referredColumn="3F79B79A-6540-9050-E9BC-D86AD59011E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="956A45C4-A960-3D96-6640-DDF938C15F1D" name="PK_TURNO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>986BA7CD-93EF-AA2A-2E6A-0FB2C7AFB8EF</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E9BE607-112C-614A-0C4A-1EB3C1E1CD6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3219004-ADCD-66F8-DAD2-C63019E59FFD" name="FK_TURNO_PROFESOR">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>F0F70F1C-D696-C478-7A44-64647DC2B0A1</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67CC97EB-1B9A-CE00-36ED-569DCF2E66ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1E95E86-B9D2-418E-8EC6-61A53F2198B5" name="FK_TURNO_ESCUELA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>DEF1E5E5-6011-2389-0384-72E0220EABF1</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E9BE607-112C-614A-0C4A-1EB3C1E1CD6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

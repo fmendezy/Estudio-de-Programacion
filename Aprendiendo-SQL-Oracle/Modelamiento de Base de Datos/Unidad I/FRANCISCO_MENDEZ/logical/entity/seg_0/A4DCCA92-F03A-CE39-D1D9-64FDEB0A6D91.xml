@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4DCCA92-F03A-CE39-D1D9-64FDEB0A6D91" name="DETALLES_DE_INVERSIÓN">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:44:48 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EE0F008D-879C-CC1E-300E-50CF9C9EB1BA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:45:06 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_uf_solicitado" id="7AF31DC1-EC2C-CD59-3DF1-E54AA4836626">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:45:10 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_del_proyecto" id="46330374-A4DE-66AF-334A-663333A8B1BA">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:45:26 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio" id="0D9A61D4-2AFC-46AA-2803-4900B2EB7D9A">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:47:39 UTC</createdTime>
+<generatorID>F4560AC1-3D78-CFCC-1AD8-1135273EDB41</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<referedAttribute>D6613BB5-4163-9203-3158-6FA7E9EABC2C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8B506A80-C3AA-0256-CB3B-84E1502C1014">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:48:51 UTC</createdTime>
+<generatorID>FF900E97-489B-00D7-94AD-A598CA625BB0</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<referedAttribute>31568135-FF80-33E1-711D-BF6811565018</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E2FDBAD-FA93-E677-4768-008CE4EB90A3" name="DETALLES_DE_INVERSIÓN PK">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 21:45:09 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE0F008D-879C-CC1E-300E-50CF9C9EB1BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

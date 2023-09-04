@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FRANCISCO_MENDEZ" id="4D18CAB7-F66B-DE3A-21C9-3324F9226F62" version="3.5">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 19:38:33 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4D18CAB7-F66B-DE3A-21C9-3324F9226F62</designId>
+</OSDM_Design>

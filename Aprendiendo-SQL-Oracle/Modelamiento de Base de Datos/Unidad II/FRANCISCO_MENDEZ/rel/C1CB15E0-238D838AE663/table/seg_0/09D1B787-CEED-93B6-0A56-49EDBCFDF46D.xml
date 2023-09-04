@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09D1B787-CEED-93B6-0A56-49EDBCFDF46D" name="TIPO_ESPECIALIDAD">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>83E4C8D4-E130-1AE2-2F57-C06AC430F46E</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="especialidad" id="BFA8E82B-0E19-ECB0-350C-2A1B104A8A43">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>BCA793FD-053B-C565-A1AA-BA5DC383AA26</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_numero_folio" id="D558220A-57EE-ED76-5194-BFD6AC7D0820">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>6C144EEF-CA71-171F-7E60-E6C371C2A49C</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A20F3BC-0787-50C0-13AF-38A1CCED906C" referredColumn="3F79B79A-6540-9050-E9BC-D86AD59011E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="410D9746-3B30-5867-A28B-6D28A4D226A8" name="PK_TIPO_ESPECIALIDAD">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>D3D8B01B-35D6-734E-42B6-78E1DC33F292</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="1D24F94A-48B7-342F-768B-A828245744B2" name="TIPO_ESPECIALIDAD__IDX">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>100473AC-6FD4-673D-2415-D7779F9FFF58</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D558220A-57EE-ED76-5194-BFD6AC7D0820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="159F0A65-8DEE-2812-656D-19862FEF17DB" name="FK_TIPO_ESPECIALIDAD_PROFESOR">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>100473AC-6FD4-673D-2415-D7779F9FFF58</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D558220A-57EE-ED76-5194-BFD6AC7D0820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

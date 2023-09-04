@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8053B79A-D12B-7429-D763-9AE2A532AF46" name="CONTRATO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 20:52:42 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="folio" id="0C8C1C7D-CBD6-A84D-957E-0FB54EF0A2C0">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 20:52:52 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_contrato" id="4E2C629D-9689-21EE-FF7F-9324F4DD6265">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 20:52:59 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="3FB341A8-3318-E3C3-45F6-D71F2B621073">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 20:57:27 UTC</createdTime>
+<generatorID>40C688E6-FFD7-CB60-6444-A73DB6B64F97</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<referedAttribute>B600A93C-0EDC-960E-C68F-B45C8CD4E194</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97E9FD60-1EB4-3C69-D1A3-A6D610CF312F" name="CONTRATO PK">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-16 20:52:58 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="AF0DFB79-2E27-2F90-7F7B-CBE0EA3C18DC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C8C1C7D-CBD6-A84D-957E-0FB54EF0A2C0</attributeRef>
+<attributeRef>3FB341A8-3318-E3C3-45F6-D71F2B621073</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

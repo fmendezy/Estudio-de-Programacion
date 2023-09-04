@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18670464-CF1D-81E7-F6A6-4C5C97CF1FFD" name="CONTRATO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>B0AD7373-7070-3FEA-5ECC-C5683531A32B</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre_proyecto" id="9D6223AF-AC09-728A-AE4C-2716B65FC354">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>08EC2D03-0BEF-F565-3B9D-D106A8CEE2CA</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="242A6246-4CB7-9FB9-A370-EBBCB588BE77" referredColumn="30D3962E-F208-FA15-248E-6FA62A8F3331"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C43D1D0-7999-DA6F-8F96-989159F36A4F" name="PK_CONTRATO">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>21F5D57A-D082-1FA0-1168-47D8B82EE564</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6223AF-AC09-728A-AE4C-2716B65FC354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D782C927-EA90-7810-39ED-7C9F1C162FFC" name="FK_CONTRATO_INVERSION">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:17:55 UTC</createdTime>
+<generatorID>6B6A3866-419F-4B0B-5817-124C971601EA</generatorID>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6223AF-AC09-728A-AE4C-2716B65FC354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

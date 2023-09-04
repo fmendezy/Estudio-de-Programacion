@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="5E13806E-CBAF-8F53-8156-392B724E2881" name="Arc_6">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 18:39:29 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<entity>D43B2857-FC52-EB02-495B-B98B689D23CB</entity>
+<relations>
+<relationID>B846D922-12D7-5F54-4449-AB406CDAFD89</relationID>
+<relationID>B0174AC2-A55F-AF4B-10F4-A5BAD3E34D5D</relationID>
+</relations>
+</Arc>

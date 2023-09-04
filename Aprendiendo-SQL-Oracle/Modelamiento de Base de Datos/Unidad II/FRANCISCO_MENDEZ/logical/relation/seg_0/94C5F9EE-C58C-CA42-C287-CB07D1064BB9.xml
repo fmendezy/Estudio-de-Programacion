@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_24" directorySegmentName="seg_0" id="94C5F9EE-C58C-CA42-C287-CB07D1064BB9">
+<createdBy>fmy</createdBy>
+<createdTime>2023-06-29 20:07:47 UTC</createdTime>
+<ownerDesignName>FRANCISCO_MENDEZ</ownerDesignName>
+<engineerTo>
+<item key="C1CB15E0-5878-9041-0FB6-238D838AE663" value="true"/>
+</engineerTo>
+<targetPk>87838DFF-60B4-3F0F-1EC3-DD05E877ED7A</targetPk>
+<identifying>false</identifying>
+<nameOnSource>egresa</nameOnSource>
+<nameOnTarget>tiene</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B3250FD1-BF45-77F5-ED26-40DDF4ADC280</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D43B2857-FC52-EB02-495B-B98B689D23CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
