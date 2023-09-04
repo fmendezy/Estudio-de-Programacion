@@ -1,0 +1,22 @@
+SELECT * FROM REGION WHERE nombre = 'Metropolitana' ORDER BY codigo DESC;
+SELECT * FROM COMUNA WHERE nombre = 'Providencia' ORDER BY codigo DESC;
+SELECT * FROM TIPO_ESCUELA WHERE nombre = 'Escuela de Fútbol' ORDER BY codigo DESC;
+SELECT * FROM PROFESION WHERE nombre = 'Médico' ORDER BY codigo DESC;
+SELECT * FROM ESTADO_CIVIL WHERE nombre = 'Casado(a)' ORDER BY codigo DESC;
+SELECT * FROM DIRECTOR WHERE pnombre = 'Juan' ORDER BY rut DESC;
+SELECT * FROM ESCUELA WHERE nombre_club = 'Los Futbolitos' ORDER BY nombre DESC;
+SELECT * FROM TELEFONO WHERE fono1 = '98098754' ORDER BY DIRECTOR_rut DESC;
+SELECT * FROM LUGAR_ESTUDIO WHERE nombre = 'Iplacex' ORDER BY codigo DESC;
+SELECT * FROM ESPECIALIDAD WHERE nombre = 'Fútbol' ORDER BY codigo DESC, nombre DESC;
+SELECT * FROM PROFESOR WHERE snombre IS NULL ORDER BY numero_folio DESC;
+SELECT * FROM TURNO WHERE dia_hora_inicio >= TO_DATE('2023-07-01', 'YYYY-MM-DD') ORDER BY ESCUELA_nombre DESC, PROFESOR_numero_folio DESC;
+SELECT * FROM PROFESOR_HONORARIO WHERE total_horas > 150 ORDER BY numero_folio DESC;
+SELECT * FROM SALUD WHERE nombre = 'Fonasa' ORDER BY codigo DESC;
+SELECT * FROM AFP WHERE nombre = 'Modelo' ORDER BY codigo DESC;
+SELECT * FROM PROFESOR_INDEFINIDO WHERE sueldo > 800000 ORDER BY numero_folio DESC;
+SELECT * FROM INVERSION WHERE nombre_proyecto = 'Mejoramiento Cancha Fútbol' ORDER BY nombre_proyecto DESC;
+SELECT * FROM INFRAESTRUCTURA WHERE nombre_proyecto = 'Mejoramiento Cancha Fútbol' ORDER BY nombre_proyecto DESC;
+SELECT * FROM IMPLEMENTO WHERE nombre_proyecto = 'Compra Paletas' ORDER BY nombre_proyecto DESC;
+SELECT * FROM CONTRATO WHERE nombre_proyecto = 'Contratación Profesores Especialistas' ORDER BY nombre_proyecto DESC;
+SELECT * FROM ADJUDICACION WHERE puntaje >= 90 ORDER BY codigo DESC;
+
