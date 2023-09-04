@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\r\n\ Clase\ Animal\ para\ la\ actividad\ evaluada\r\n
+comment1.params=
+comment1.target=Animal()
+comment1.text=\r\n\ Constructor\ vacio\r\n
+comment10.params=
+comment10.target=void\ act()
+comment2.params=especie\ movimientoX\ movimientoY
+comment2.target=Animal(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getEspecie()
+comment3.text=\r\n\ los\ getters\ and\ setters\ para\ los\ atributos\r\n
+comment4.params=especie
+comment4.target=void\ setEspecie(java.lang.String)
+comment5.params=
+comment5.target=int\ getMovimientoX()
+comment6.params=movimientoX
+comment6.target=void\ setMovimientoX(int)
+comment7.params=
+comment7.target=int\ getMovimientoY()
+comment8.params=movimientoY
+comment8.target=void\ setMovimientoY(int)
+comment9.params=
+comment9.target=void\ avanzar()
+numComments=11
