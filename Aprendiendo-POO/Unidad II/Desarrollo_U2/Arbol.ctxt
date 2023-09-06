@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Arbol
+comment1.params=altura\ a\u00F1osVida
+comment1.target=Arbol(double,\ int)
+comment2.params=
+comment2.target=double\ getAltura()
+comment3.params=altura
+comment3.target=void\ setAltura(double)
+comment4.params=
+comment4.target=int\ getA\u00F1osVida()
+comment5.params=a\u00F1osVida
+comment5.target=void\ setA\u00F1osVida(int)
+comment6.params=
+comment6.target=java.lang.String\ crecer()
+comment7.params=
+comment7.target=void\ cambiar()
+comment8.params=
+comment8.target=void\ act()
+numComments=9

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Manzano
+comment1.params=altura\ a\u00F1osVida\ cantidadFrutos
+comment1.target=Manzano(double,\ int,\ int)
+comment2.params=
+comment2.target=int\ getCantidadFrutos()
+comment3.params=cantidadFrutos
+comment3.target=void\ setCantidadFrutos(int)
+comment4.params=
+comment4.target=java.lang.String\ crecer()
+comment5.params=
+comment5.target=void\ cambiar()
+comment6.params=
+comment6.target=void\ act()
+numComments=7
