@@ -1,6 +1,7 @@
 ﻿
 
 using Tienda_Electro_FMY.Clases;
+using Tienda_Electro_FMY.Dialogos;
 using Tienda_Electro_FMY.List;
 /*
  * PRUEBA DEL EJERCICIO 1
@@ -92,7 +93,7 @@ void EJ3()
 
 
     Console.WriteLine("\n***\x1b[31m PROBANDO: DELETE \x1b[37m***");
-    Console.WriteLine(ElectrodomesticoCollection.Delete(1, electro));// Eliminado con éxito
+    Console.WriteLine(ElectrodomesticoCollection.Delete(1));// Eliminado con éxito
     Console.WriteLine(ElectrodomesticoCollection.Read(1));// No existe registro
 
 
@@ -121,5 +122,108 @@ void EJ3()
 
 }
 
+/*
+ * DESABILITAR 
+ * UNO QUITANDO LOS "//" PARA PROBAR
+ */
 //EJ1();// Ejercicios 1
-EJ3();// Ejercicios 3 (el 2 es crear los metodos, aqui es probarlos)
+//EJ3();// Ejercicios 3 (el 2 es crear los metodos, aqui es probarlos)
+
+/*
+ * DESARROLLO FINAL: EJERCICIO 4
+ */
+void Presentacion()
+{
+    Console.WriteLine("BIENVENIDO!!!");
+    Console.WriteLine("Elige una de las siguientes opciones para empezar");
+    Console.WriteLine("1. Agregar nuevo electrodoméstico");
+    Console.WriteLine("2. Buscar electrodoméstico por id");
+    Console.WriteLine("3. Actualizar electrodoméstico");
+    Console.WriteLine("4. Eliminar electrodoméstico");
+    Console.WriteLine("5. Búsqueda personalizada");
+    Console.WriteLine("6. Listar todos los registros");
+    Console.WriteLine("0. Salir");
+
+    Console.WriteLine("Ingrese opción");
+}
+
+
+void Reiniciar()
+{
+    Console.WriteLine("Presione una tecla para volver al menú");
+    Console.ReadLine();
+    Console.Clear();
+    EJ4();
+}
+
+void Despedida()
+{
+    Console.Clear();
+    Console.WriteLine("HASTA PRONTO!!");
+    Console.WriteLine("Presiona cualquier tecla para salir");
+    Console.ReadLine();
+    Environment.Exit(1);
+}
+
+void EJ4()
+{
+    try
+    {
+        while (true)
+        {
+            Presentacion();
+            int opt = Convert.ToInt32(Console.ReadLine());
+
+            switch (opt)
+            {
+                case 1:
+                    Dialogo.CargarDialogoCreate();
+                    Reiniciar();
+                    break;
+
+                case 2:
+                    Dialogo.CargarDialogoRead();
+                    Reiniciar();
+                    break;
+
+                case 3:
+                    Dialogo.CargarDialogoUpdate();
+                    Reiniciar();
+                    break;
+
+                case 4:
+                    Dialogo.CargarDialogoDelete();
+                    Reiniciar();
+                    break;
+
+                case 5:
+                    Dialogo.CargarDialogoSearch();
+                    Reiniciar();
+                    break;
+
+                case 6:
+                    Dialogo.CargarDialogoReadAll();
+                    Reiniciar();
+                    break;
+
+                case 0:
+                    Despedida();
+                    break;
+
+                default:
+                    Console.Clear();
+                    Console.WriteLine("Opción inválida");
+                    Reiniciar();
+                    break;
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine("Opción inválida");
+        Reiniciar();
+    }
+}
+
+
+EJ4();

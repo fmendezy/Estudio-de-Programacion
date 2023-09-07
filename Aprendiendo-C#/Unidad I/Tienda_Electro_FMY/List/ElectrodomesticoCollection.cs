@@ -60,11 +60,12 @@ namespace Tienda_Electro_FMY.List
         /*
          * DELETE
          */
-        public static string Delete(int id, Electrodomestico electro)
+        public static string Delete(int id)
         {
+
             var res = _listadoElectro.Find(x => x.Id == id);
-            if (res == null) return "No existe registro";
-            return _listadoElectro.Remove(res) ? "Eliminado con éxito" : "No se pudo eliminar registro";
+            if (res == null) return "Electrodoméstico no encontrado";
+            return _listadoElectro.Remove(res) ? "Eliminado con éxito" : "No pudo ser eliminado";
         }
 
         /*
