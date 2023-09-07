@@ -1,0 +1,28 @@
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.exe
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.deps.json
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.runtimeconfig.json
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.dll
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.pdb
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.AssemblyInfoInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.AssemblyInfo.cs
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.csproj.CoreCompileInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.dll
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\refint\Tienda_Electro_FMY.dll
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.pdb
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.genruntimeconfig.cache
+C:\Users\fmy\OneDrive\Escritorio\Programación I\Unidad I\Semana 2\Tienda_Electro_FMY\obj\Debug\net6.0\ref\Tienda_Electro_FMY.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.exe
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.deps.json
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.runtimeconfig.json
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\bin\Debug\net6.0\Tienda_Electro_FMY.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.AssemblyInfoInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.AssemblyInfo.cs
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.csproj.CoreCompileInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\refint\Tienda_Electro_FMY.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\Tienda_Electro_FMY.genruntimeconfig.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Tienda_Electro_FMY\obj\Debug\net6.0\ref\Tienda_Electro_FMY.dll
