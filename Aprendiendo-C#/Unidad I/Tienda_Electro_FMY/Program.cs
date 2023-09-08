@@ -18,11 +18,13 @@ void EJ1()
     };
     Console.WriteLine(Refri.Informacion());
 
-
     Refri.EsSmart = true;
     Console.WriteLine(Refri.Informacion());
 
 }
+
+//EJ1();
+
 
 /*
  * PRUEBA DEL EJERCICIO 3
@@ -114,7 +116,7 @@ void EJ3()
 
     Console.WriteLine("\n***\x1b[31m PROBANDO: READALL \x1b[37m***");
     var leer = ElectrodomesticoCollection.ReadAll();// Buscar palabra 'ide'
-    if (leer.Count == 0) Console.WriteLine("registros a mostrar");
+    if (leer.Count == 0) Console.WriteLine("Sin registros a mostrar");
     else
     {
         leer.ForEach(x => Console.WriteLine(x.Informacion()));
@@ -225,5 +227,5 @@ void EJ4()
     }
 }
 
-
+//EJ3();
 EJ4();

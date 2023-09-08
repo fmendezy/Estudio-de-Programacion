@@ -15,7 +15,7 @@ namespace Tienda_Electro_FMY.Clases
         public override string Informacion()
         {
             string msg = EsSmart ? "Si" : "No";
-            return base.Informacion() + " - Es smart: "+ msg; 
+           return base.Informacion() + " - Es smart: " + msg; 
         }
     }
 }

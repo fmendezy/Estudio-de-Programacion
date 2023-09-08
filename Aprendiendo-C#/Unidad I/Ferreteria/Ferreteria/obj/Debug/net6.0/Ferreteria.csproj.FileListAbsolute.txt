@@ -1,0 +1,14 @@
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\bin\Debug\net6.0\Ferreteria.exe
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\bin\Debug\net6.0\Ferreteria.deps.json
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\bin\Debug\net6.0\Ferreteria.runtimeconfig.json
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\bin\Debug\net6.0\Ferreteria.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\bin\Debug\net6.0\Ferreteria.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\Ferreteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\Ferreteria.AssemblyInfoInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\Ferreteria.AssemblyInfo.cs
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\Ferreteria.csproj.CoreCompileInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\Ferreteria.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\refint\Ferreteria.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\Ferreteria.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\Ferreteria.genruntimeconfig.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad I\Ferreteria\Ferreteria\obj\Debug\net6.0\ref\Ferreteria.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fmy\\OneDrive\\Escritorio\\Ingeniería Informática Francisco Mendez\\Programación I\\Unidad I\\Semana 2\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj": {}
+    "C:\\Users\\fmy\\OneDrive\\Escritorio\\Estudio-de-Programacion\\Aprendiendo-C#\\Unidad I\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj": {}
   },
   "projects": {
-    "C:\\Users\\fmy\\OneDrive\\Escritorio\\Ingeniería Informática Francisco Mendez\\Programación I\\Unidad I\\Semana 2\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj": {
+    "C:\\Users\\fmy\\OneDrive\\Escritorio\\Estudio-de-Programacion\\Aprendiendo-C#\\Unidad I\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmy\\OneDrive\\Escritorio\\Ingeniería Informática Francisco Mendez\\Programación I\\Unidad I\\Semana 2\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj",
+        "projectUniqueName": "C:\\Users\\fmy\\OneDrive\\Escritorio\\Estudio-de-Programacion\\Aprendiendo-C#\\Unidad I\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj",
         "projectName": "Proyecto Automotora (Ejercicio Conceptual S2)",
-        "projectPath": "C:\\Users\\fmy\\OneDrive\\Escritorio\\Ingeniería Informática Francisco Mendez\\Programación I\\Unidad I\\Semana 2\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj",
+        "projectPath": "C:\\Users\\fmy\\OneDrive\\Escritorio\\Estudio-de-Programacion\\Aprendiendo-C#\\Unidad I\\Proyecto Automotora (Ejercicio Conceptual S2)\\Proyecto Automotora (Ejercicio Conceptual S2).csproj",
         "packagesPath": "C:\\Users\\fmy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmy\\OneDrive\\Escritorio\\Ingeniería Informática Francisco Mendez\\Programación I\\Unidad I\\Semana 2\\Proyecto Automotora (Ejercicio Conceptual S2)\\obj\\",
+        "outputPath": "C:\\Users\\fmy\\OneDrive\\Escritorio\\Estudio-de-Programacion\\Aprendiendo-C#\\Unidad I\\Proyecto Automotora (Ejercicio Conceptual S2)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
