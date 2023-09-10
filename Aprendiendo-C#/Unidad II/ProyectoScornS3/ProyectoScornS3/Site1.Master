@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ProyectoScornS3.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- AQUI VA EL CONTENIDO DE LA MASTERPAGE -->
+            <table>
+                <tr>
+                    <td><asp:Label ID="lblParamBusqueda" runat="server" Text="Ingrese el criterio de busqueda"></asp:Label></td>
+                    <td><asp:TextBox ID="txtParamBusqueda" runat="server"></asp:TextBox></td>
+                    <td><asp:Button ID="btnBuscar" runat="server" Text="Busar" /></td>
+                </tr>
+            </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    Soy un control con Web Form with Mater Page</p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

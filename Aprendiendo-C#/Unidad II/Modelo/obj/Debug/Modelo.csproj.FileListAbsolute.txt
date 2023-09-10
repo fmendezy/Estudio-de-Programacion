@@ -1,0 +1,9 @@
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\bin\Debug\Modelo.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\bin\Debug\Modelo.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\bin\Debug\Datos.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\bin\Debug\Datos.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\obj\Debug\Modelo.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\Modelo\obj\Debug\Modelo.pdb

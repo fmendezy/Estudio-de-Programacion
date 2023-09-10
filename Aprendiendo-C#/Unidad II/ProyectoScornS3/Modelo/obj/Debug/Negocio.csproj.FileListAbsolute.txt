@@ -1,0 +1,6 @@
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\ProyectoScornS3\Modelo\bin\Debug\Modelo.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\ProyectoScornS3\Modelo\bin\Debug\Modelo.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\ProyectoScornS3\Modelo\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\ProyectoScornS3\Modelo\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\ProyectoScornS3\Modelo\obj\Debug\Modelo.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\ProyectoScornS3\Modelo\obj\Debug\Modelo.pdb
