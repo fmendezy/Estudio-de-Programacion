@@ -10,8 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:TextBox ID="txtPrimerNumero" runat="server" Text=""></asp:TextBox>
-            <asp:TextBox ID="txtSegundoNumero" runat="server" Text=""></asp:TextBox>
+            <asp:TextBox ID="txtPrimerNumero" runat="server" Text="" TextMode="Number"></asp:TextBox>
+            <asp:TextBox ID="txtSegundoNumero" runat="server" Text="" TextMode="Number"></asp:TextBox>
             <asp:Button ID="btnCalcular" runat="server" Text="Calcular" OnClick="btnCalcular_Click" />
             <br /> <br /> 
             <asp:Label ID="lblResultados" runat="server" Text=""></asp:Label>
