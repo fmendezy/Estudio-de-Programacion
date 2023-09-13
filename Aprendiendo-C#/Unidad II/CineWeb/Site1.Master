@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CineWeb.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Contenido Global -->
+            <table>
+                <tr>
+                    <!-- Imagen -->
+                    <td><img src="../static/cinew.png" width="150" Height="100"/></td>
+                    <td>
+                        <!-- Menu y SitemapDataSource1-->
+                        <asp:Menu
+                            ID="mnNav" runat="server" StaticSubMenuIndent="16px" DataSourceID="SiteMapDataSource1"/>
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server"/>
+                    </td>
+                </tr>
+                <tr>
+                    <!-- Formulario de Busqueda -->
+                    <td><asp:Label ID="lblFiltro" runat="server" Text="Ingrese filtro de búsqueda"/></td>
+                    <td><asp:TextBox ID="txtFiltro" runat="server" /></td>
+                    <td><asp:Button ID="btnFiltrar" runat="server" Text="Buscar" OnClick="btnFiltrar_Click" /></td>
+                </tr>
+            </table>
+            <!-- Contenido formularios web forms -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

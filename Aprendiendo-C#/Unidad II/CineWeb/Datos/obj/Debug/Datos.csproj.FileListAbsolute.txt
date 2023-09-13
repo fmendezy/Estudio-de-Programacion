@@ -1,0 +1,6 @@
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\CineWeb\Datos\bin\Debug\Datos.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\CineWeb\Datos\bin\Debug\Datos.pdb
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\CineWeb\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\CineWeb\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\CineWeb\Datos\obj\Debug\Datos.dll
+C:\Users\fmy\OneDrive\Escritorio\Estudio-de-Programacion\Aprendiendo-C#\Unidad II\CineWeb\Datos\obj\Debug\Datos.pdb

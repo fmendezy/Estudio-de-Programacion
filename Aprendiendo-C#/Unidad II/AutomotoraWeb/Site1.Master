@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AutomotoraWeb.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Contenido Global -->
+            <table>
+                <tr>
+                    <td><image src="../static/logo.png" width="200" height="150"/></td>
+                    <td>
+                        <asp:Menu ID="menunav" runat="server" DataSourceID="SiteMapDataSource1"/></asp:Menu>
+                        
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblFiltro" runat="server" Text="Ingresar filtro:"></asp:Label>
+                        <asp:TextBox ID="txtFiltro" runat="server" Text=""></asp:TextBox>
+                        <asp:Button ID="btnFiltrar" runat="server" Text="Buscar" OnClick="btnFiltrar_Click" />
+                    </td>
+                </tr>
+            </table>
+            <hr />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <!-- Contenido formularios web forms -->
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
