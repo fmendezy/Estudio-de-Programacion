@@ -3,6 +3,12 @@ Con la finalidad de que nuestro terminal no nos solicite la contraseña de Githu
 
 Es importante señalar que esta guía esta pensada para SO Linux, especificamente la distribución Ubuntu 23.10
 
+## 0.- Tener configurado tu nombre y correo en el sistema
+Para comenzar, si no lo tienes ya realizado debes tener tu correo y nombre registrado en git de su sistema operativo, hacerlo es muy facil, utiliza uno por uno los siguientes comandos para registrarlo.
+	git config --global user.email "tu-correo@ejemplo.com"
+  	git config --global user.name "Tu Nombre"
+Con esto aparecerá tu información en los commit como autor de los mismos.
+
 ## 1.- Generar un par de claves SSH en tu sistema Linux:
 
 Abre una terminal en tu sistema Linux y ejecuta el siguiente comando para generar un par de claves SSH (pública y privada):
