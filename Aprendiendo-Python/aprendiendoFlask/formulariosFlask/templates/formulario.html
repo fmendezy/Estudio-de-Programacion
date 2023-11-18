@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario con Flask</title>
+</head>
+<body>
+<!-- formulario.html
+Dentro del formulario, hay dos etiquetas label que describen los campos de entrada.
+Un campo es para el "Nombre" y el otro para "Correo". Estos campos son campos de entrada
+ de texto, donde los usuarios pueden ingresar su nombre y dirección de correo electrónico.
+ El campo de correo electrónico tiene un tipo especial "email", que valida automáticamente si la entrada tiene el formato de una dirección de correo electrónico válida.
+
+-->
+<form method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre"><br>
+
+    <label for="correo">Correo:</label>
+    <input type="email" name="correo"><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+<!--
+Al final del formulario, hay un botón de envío con el texto "Enviar".
+ Cuando los usuarios hacen clic en este botón, los datos ingresados en los campos
+ de nombre y correo se envían al servidor para su procesamiento.
+ El formulario utiliza el método HTTP POST para enviar los datos al servidor.
+-->
+
+</body>
+</html>
