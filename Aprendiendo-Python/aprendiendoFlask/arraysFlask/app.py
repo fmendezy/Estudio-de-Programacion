@@ -6,7 +6,6 @@ app = Flask(__name__)
 def index():
     return 'Ejemplo manejo de Listas'
 
-
 # 1°er Ruta que recibe un array como parametro en la URL
 # Se puede probar en la url: http://127.0.0.1:5000/array/5,4,3
 @app.route('/array/<int_list>')
@@ -18,9 +17,9 @@ def process_Array(int_list):
 @app.route('/submit', methods=['GET', 'POST'])
 def submit_array():
     if request.method == 'POST':
-        array_data = request.form.get('array').split(',')
+        array_data = request.form.get('array').split(',')# Separamos los datos recibidos con comas
         return f'Array recibido: {array_data}', 200
-    else:
+    else:# Aqui se hace uso de GET tras ingresar a la URL /submit y se rendedira el html
         return render_template('form.html')
 
 # 3°ra Ruta que envia un array como respuesta JSON
