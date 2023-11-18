@@ -7,8 +7,8 @@ body {
 
 .container {
     max-width: 400px;
-    margin: auto;
-    padding: 20ps;
+    margin: 40px auto 0; /* Agrega 20px de margen arriba y 0 en los lados */
+    padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -20,5 +20,28 @@ body {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 5px;/* Espacio entre el label y el cuadro de texto */
+    margin-top: 15px;/* Agrega 10px de espacio arriba */
+}
+
+input[type="text"], input[type="email"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    background-color: #e2b11b; /* Color mostaza del boton */
+    color: #000; /* Color texto negro */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;/* Agrega espacio arriba del boton */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
