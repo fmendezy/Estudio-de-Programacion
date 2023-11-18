@@ -1,2 +1,2 @@
-# Arendiendo Flask (Framework web de Python)
-Aquí dejo algunos desarrollos o ejercicios basicos del uso de Flask con html/css y python.
+# Aprendiendo Flask (Framework Web de Python)
+Todos los apuntes relacionados con el estudio y practica con Flask los dejaré aquí.
