@@ -1,0 +1,21 @@
+
+<ion-content [fullscreen]="true">
+  <div id="infoCirculo">
+    <div class="image-container">
+      <ion-img src="../../assets/imagenes/perimetrocirculo.JPG" alt="Circulo"></ion-img>
+    </div>
+    <ion-list lines="none">
+      <ion-item>
+        <ion-label position="floating">Radio</ion-label>
+        <ion-input [(ngModel)]="variableStr" type="number" placeholder="Radio (cm)"></ion-input>
+      </ion-item>
+
+    <ion-item>
+      <ion-button (click)="CalcularPerimetro()">Calcular Perímetro</ion-button>
+    </ion-item>
+    <ion-item>
+      {{ resultado }}
+    </ion-item>
+    </ion-list>
+  </div>  
+</ion-content>

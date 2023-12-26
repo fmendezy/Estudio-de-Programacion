@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">evaluacion-1-ph</string>
+    <string name="title_activity_main">evaluacion-1-ph</string>
+    <string name="package_name">evaluacion.v1.ph</string>
+    <string name="custom_url_scheme">evaluacion.v1.ph</string>
+</resources>

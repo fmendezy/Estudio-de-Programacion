@@ -1,0 +1,31 @@
+
+
+
+<ion-content [fullscreen]="true">
+<div id="infoLados">
+  <ion-img src="../../assets/imagenes/perimetrotriangulo.JPG" alt="Triangulo"></ion-img>
+<ion-list lines="none">
+  <ion-item>
+    <ion-label position="floating">Lado A</ion-label>
+    <ion-input [(ngModel)]="ladoAStr" type="number" placeholder="Lado A"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Lado B</ion-label>
+    <ion-input [(ngModel)]="ladoBStr" type="number" placeholder="Lado B"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Lado C</ion-label>
+    <ion-input [(ngModel)]="ladoCStr" type="number" placeholder="Lado C"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-button (click)="CalcularPerimetro()">Calcular Perímetro</ion-button>
+  </ion-item>
+
+  <ion-item>
+    {{ resultado }}
+  </ion-item>
+</ion-list>
+</div>
+</ion-content>

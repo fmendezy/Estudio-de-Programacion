@@ -1,0 +1,21 @@
+
+
+<ion-content [fullscreen]="true">
+
+  <div id="container">
+    <ion-select
+    (ionChange)="handlechange($event)" 
+    label="Figura Geometrica"
+    placeholder="Elige tu Figura Geometrica">
+      <ion-select-option value="circulo">Circulo</ion-select-option>
+      <ion-select-option value="triangulo">Triangulo</ion-select-option>
+    </ion-select>    
+    
+
+  <app-figurageometrica />
+  <app-circulo *ngIf="InfoCirculo()" />
+  <app-triangulo *ngIf="InfoTriangulo()"/>
+
+</div>
+
+</ion-content>
