@@ -40,11 +40,11 @@ fun ticketPrice(age: Int, isMonday: Boolean): Int {
         age <= 12 -> precioInfantil
         age in 13..60 -> if (isMonday) precioEstandar-5 else precioEstandar
         age in 61..100 -> precioAncianos
-        else -> -1s
+        else -> -1
     }
 }
 
-// Desarrollo de profesor
+// Desarrollo de profesor - sólo para comparar tras desarrollo
 fun ticketPrice2(age: Int, isMonday: Boolean): Int{
     return when(age){
         in 0..12 -> 15
