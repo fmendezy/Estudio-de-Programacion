@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!-- Layaout central vertical -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,7 +27,7 @@
         android:text="Texto 2"
         android:textSize="22sp" />
 
-    <!-- Layout Horizontal dentr de uno vertical (el central) -->
+    <!-- Layout Horizontal dentro de uno vertical (el central) -->
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
         android:orientation="horizontal"
@@ -58,3 +57,4 @@
             android:text="Texto 3"
             android:textSize="22sp" />
 </LinearLayout>
+
