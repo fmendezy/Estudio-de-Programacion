@@ -1,4 +1,4 @@
-package cl.mendezy.curso_androidmaster
+package cl.mendezy.curso_androidmaster.sintaxis
 
 fun main(){
 
