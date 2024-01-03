@@ -1,4 +1,5 @@
-<!-- Layaout central vertical -->
+git add Aprendiendo-Kotlin_Android/Curso_Layouts/ConstraintLayout/
+    <!-- Layaout central vertical -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
