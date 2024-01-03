@@ -6,13 +6,229 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <!-- ESPACIO DE LOGO DE EJEMPLO -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLogoIzquierda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLogoDerecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLogoArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLogoAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+    <View
+        android:id="@+id/Logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#009688"
+        app:layout_constraintTop_toTopOf="@id/guidelineLogoArriba"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineLogoAbajo"
+        app:layout_constraintStart_toStartOf="@id/guidelineLogoIzquierda"
+        app:layout_constraintEnd_toEndOf="@id/guidelineLogoDerecha"
+        />
+    <!-- FIN LOGO -->
+
+    <!-- ESPACIO USUARIO -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineUserIzquierda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineUserDerecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineUserArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineUserAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41" />
+    <View
+        android:id="@+id/User"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#B6AFB3B3"
+        app:layout_constraintTop_toTopOf="@id/guidelineUserArriba"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineUserAbajo"
+        app:layout_constraintStart_toStartOf="@id/guidelineUserIzquierda"
+        app:layout_constraintEnd_toEndOf="@id/guidelineUserDerecha"
+        />
+    <!-- FIN USUARIO -->
+
+    <!-- ESPACIO TEXTO SUPERIOR PARA USER -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTextoIzquierda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTextoDerecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTextoArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTextoAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+    <TextView
+        android:id="@+id/TextoSup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Indica tus credenciales"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/guidelineTextoArriba"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineTextoAbajo"
+        app:layout_constraintStart_toStartOf="@id/guidelineTextoIzquierda"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTextoDerecha"
+        />
+
+    <!-- ESPACIO CONTRASEÑA -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePassArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@id/guidelineUserAbajo"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinePassAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.51" />
+    <View
+        android:id="@+id/Pass"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#B6AFB3B3"
+        app:layout_constraintTop_toTopOf="@id/guidelinePassArriba"
+        app:layout_constraintBottom_toBottomOf="@id/guidelinePassAbajo"
+        app:layout_constraintStart_toStartOf="@id/guidelineUserIzquierda"
+        app:layout_constraintEnd_toEndOf="@id/guidelineUserDerecha"
+        />
+
+    <!-- BOTON LOGIN -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBtnArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBtnAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.61" />
+    <View
+        android:id="@+id/btnLogin"
+        android:background="@color/black"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="@id/guidelineBtnArriba"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBtnAbajo"
+        app:layout_constraintStart_toStartOf="@id/guidelineLogoIzquierda"
+        app:layout_constraintEnd_toEndOf="@id/guidelineLogoDerecha"
+        />
+
+    <!-- ESPACIO TEXTO ¿olvidaste contraseña? -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTextoInfArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTextoInfAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+    <TextView
+        android:id="@+id/TextoInf"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/guidelineTextoInfArriba"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineTextoInfAbajo"
+        app:layout_constraintStart_toStartOf="@id/guidelineTextoIzquierda"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTextoDerecha"
+        />
+
+    <!-- ESPACIO TEXTO CREDITOS -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineCreditosArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineCreditosAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.98" />
+    <TextView
+        android:id="@+id/TextoCreditos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="CREADO POR FRANCISCO"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/guidelineCreditosArriba"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineCreditosAbajo"
+        app:layout_constraintStart_toStartOf="@id/guidelineTextoIzquierda"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTextoDerecha"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
