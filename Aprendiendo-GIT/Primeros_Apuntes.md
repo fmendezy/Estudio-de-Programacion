@@ -21,6 +21,9 @@ Una vez estamos seguros, usando una **analogía** de una empresa de paquetería 
     git add .
 Este comando con el punto al final significa que **todos** los archivos se agregaran al *"paquete a subir"*, si deseas subir un archivo en particular, puedes reemplazar el punto por el *nombre del archivo* o su *ruta con el nombre*
 
+    git add -A
+Agregar todos los cambios al área de preparación. Para agregar todos los cambios, incluyendo archivos eliminados, movidos y modificados, al área de preparación (ideal cuando tienes muchas marcas rojas y *"git add ."* no te permite 'limpiar' esos archivos que quieres sincronizar entre tu directorio y el repositorio en github.
+
 Ahora escribiremos en la *"etiqueta del paquete"*, para ello escribiremos el **commit**
 
     git commit -m "El comentario va acá"
