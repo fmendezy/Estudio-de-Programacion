@@ -1,9 +1,7 @@
-git add Aprendiendo-Kotlin_Android/Curso_Layouts/ConstraintLayout/
-    <!-- Layaout central vertical -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".firstapp.FirstAppActivity">
@@ -17,45 +15,17 @@ git add Aprendiendo-Kotlin_Android/Curso_Layouts/ConstraintLayout/
      android:orientation="vertical"
      -->
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Texto 1"
-        android:textSize="22sp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Texto 2"
-        android:textSize="22sp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="PULSAME"
+        android:background="@color/purple_200"
+        />
 
-    <!-- Layout Horizontal dentro de uno vertical (el central) -->
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="wrap_content"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Texto 4"
-            android:textSize="22sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Texto 5"
-            android:textSize="22sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Texto 6"
-            android:textSize="22sp" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
-    <!-- Fin layout horizontal -->
-
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Texto 3"
-            android:textSize="22sp" />
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
