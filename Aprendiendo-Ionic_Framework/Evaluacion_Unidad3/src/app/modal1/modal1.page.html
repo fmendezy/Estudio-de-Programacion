@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="cerrarModal(destino)">Cancelar</ion-button>
+    </ion-buttons>
+    <ion-title>Valor ida y vuelta</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="confirmar()">Confirmar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-item>
+    <label id="monto">Valor del Viaje</label>
+    <ion-input label ="monto" type="number" placeholder="Ingrese el monto" [(ngModel)]="valor"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>
+      Moneda
+      <ion-select placeholder="Seleccione la moneda" [(ngModel)]="formatoMoneda">
+        <ion-select-option value="USD">Dólar estadounidense</ion-select-option>
+        <ion-select-option value="CLP">Peso chileno</ion-select-option>
+        <ion-select-option value="EUR">Euro</ion-select-option>
+      </ion-select>
+    </ion-label>
+  </ion-item>
+  <ion-buttons slot="end">
+    <ion-button (click)="confirmar()" [strong]="true">Confirmar</ion-button>
+  </ion-buttons>
+</ion-content>
