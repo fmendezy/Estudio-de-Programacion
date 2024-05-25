@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <h1>Reserva tu habitación</h1>
+    <img src="img/habitacion1.png" alt="Fotografia de habitacion economica" width="250"><img src="img/habitacion2.png" alt="Fotografia de habitacion premium" width="250"><img src="img/habitacion3.png" alt="Fotografia de habitacion luxury" width="250">
+    <form action="/reserva" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"><br>
+        <label for="genero">Selecciona tu Habitación:</label>
+        <select id="genero" name="genero">s
+            <option value="1">Habitación Economica</option>
+            <option value="2">Habitación Premium</option>
+            <option value="3">Habitación Luxury</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Reservar">
+    </form>
+    </form>
+</body>
+</html>

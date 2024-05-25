@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrendTronic - Arrienda HOY tu Equipo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>ArrendTronic</h1>
+        <img src="img/logo.png" id="logo" alt="Logo de la compañia" width="150">
+    </header>
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <p>En ArrendTronic ofrecemos el mejor servicio de arriendos de equipos para tu evento.</p>
+        <p>Cotiza <b>HOY</b> con nosotros y obtén descuentos exclusivos.</p>
+    </section>
+    <h2>Equipos Disponibles</h2>
+    <section>
+        <div>
+            <h3>Set de Iluminación Martin</h3>
+            <img src="img/iluminacion.jpg" alt="Fotografía de equipos de iluminación" width="350">
+            <p>Set de equipo de iluminación marca Martin, con efectos DJ, luces ajustables de 2000W.</p>
+        </div>
+        <div>
+            <h3>Parlantes Activos 15" 1000W AudioKing</h3>
+            <img src="img/parlante.jpeg" alt="Fotografía de los parlantes y su pedestal" width="350">
+            <p>Parlantes con pedestal marca AudioKing, perfecto para tu evento en interior o al aire libre.</p>
+        </div>
+    </section>
+    <h4>Completa el formulario para Arrendar</h4>
+    <form action="/arrendar" method="post">
+        <label for="fecha">Fecha del evento:</label>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+
+        <label for="equipos">Selecciona el equipo:</label><br>
+        <input type="checkbox" id="iluminacion" name="tema" value="equipoIluminacion">
+        <label for="iluminacion">Set de Iluminación Martin</label><br>
+        <input type="checkbox" id="parlantes" name="tema" value="Parlantes">
+        <label for="parlantes">Parlantes Activos AudioKing</label><br><br>
+
+        <label for="dias">Días de alquiler:</label>
+        <input type="number" id="dias" name="dias" min="1" max="30" placeholder="Ej: 2" required><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Francisco Mendezy" required><br><br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Ej: nombre@dominio.cl" required><br><br>
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+569 1122 3344" required><br><br>
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+</body>
+</html>
