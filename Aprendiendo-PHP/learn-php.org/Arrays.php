@@ -78,9 +78,47 @@ $segundo_array = ['d','e','f'];
 $array_concatenado = array_merge($primer_array, $segundo_array);
 print_r($array_concatenado);// Muestra a, b, c, d, e, f en un solo array
 
-// ORDEN DE MATRICES
-// sort() Ordena a la inversa la matriz (el utimo pasa a ser el primero)
+/*
+    ORDEN DE MATRICES
+    sort() reOrdena todos los elementos dentro del array.
+    Caso con numeros: De menor a mayor
+    Caso con palabras: Alfabeticamente de la A a la Z
+*/
+$numeros = [4,2,3,1,5];// Lista desordenada
+sort($numeros);
+print_r($numeros);// Devuelve "1,2,3,4,5" (ordenado)
+
+$palabras = ["Burro", "Arbol", "Casa", "Dedo"];// Lista desordenada
+sort($palabras);
+print_r($palabras);// Devuelve "Arbol, Burro, Casa, Dedo" (ordenado)
+
+// Funciones avanzadas de matrices
+// array_slice() - Muestra en pantalla, como seria eliminando los primeros x elementos, y los que quedan les ajusta el indice.
+$numeros = [1,2,3,4,5,6];
+print_r(array_slice($numeros, 3));// elimina el 1,2,3 (es decir 3 elementos) y muestra en posición [0], el 4, en [1] el 5 y asi.
+//print_r($numeros); // Demostración que no genera cambios permanente en el array
 
 
+// otra forma, 
+$numeros_array = [1,2,3,4,5,6];
+print_r(array_slice($numeros_array, 3,2));// resultado 4 [3] y 5 [4]
+
+/* 
+Ejercicio:
+1.- Cree una nueva matriz que contenga los números pares 2, 4, 6, 8 y 10.
+El nombre de la nueva matriz debe ser $even_numbers
+2.- Concatene las matrices y para crear la matriz.
+$male_names
+$female_names
+*/
+
+// Ejercicio 1
+$even_numbers = [2, 4, 6, 8, 10];
+
+// Ejercicio 2
+$male_names = ["Francisco", "Carlos", "Pablo"];
+$female_names = ["Auralia","Karla","Natalia"];
+$resultado = array_merge($male_names,$female_names);
+print_r($resultado);
 
 ?>
